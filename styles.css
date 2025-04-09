@@ -1,0 +1,194 @@
+body {
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px #000000;
+	background-color: #b2ffbd;
+}
+
+button {
+  background-color: #39b700; 
+  border: yes;
+  border-color: #45dd00;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 12%;
+  cursor: pointer;
+}
+
+h1 {
+  font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.disabled {
+  opacity: 0.6;
+  background-color: #818181; 
+  border: yes;
+  border-color: #818181;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 12%;
+  cursor: not-allowed;
+}
+
+p {
+  font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+button {
+  transition: transform .2s; /* Animation */
+}
+
+button:hover {
+  transform: scale(1.125); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  background-color: #8bff6c;
+  border-color: #39b700;
+}
+
+a {
+  background-color: #39b700; 
+  border: yes;
+  border-color: #45dd00;
+  color: white;
+  padding: 5px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 12%;
+  cursor: pointer;
+}
+
+a {
+  transition: transform .2s; /* Animation */
+}
+
+a:hover {
+  transform: scale(1.125); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  background-color: #8bff6c;
+  border-color: #39b700;
+}
+
+h4 {
+  font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+  color: #000000;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  animation: bg-animation 10s infinite;
+}
+
+@-webkit-keyframes bg-animation {
+  0% {
+    background-color: red;
+  }
+  15% {
+    background-color: yellow;
+  }
+  30% {
+    background-color: green;
+  }
+  45% {
+    background-color: blue;
+  }
+  60% {
+    background-color: purple;
+  }
+  75% {
+    background-color: pink;
+  }
+  90% {
+    background-color: brown;
+  }
+  100% {
+    background-color: red;
+  }
+}
+
+@keyframes bg-animation {
+  0% {
+    background-color: red;
+  }
+  15% {
+    background-color: yellow;
+  }
+  30% {
+    background-color: green;
+  }
+  45% {
+    background-color: blue;
+  }
+  60% {
+    background-color: purple;
+  }
+  75% {
+    background-color: pink;
+  }
+  90% {
+    background-color: brown;
+  }
+  100% {
+    background-color: red;
+  }
+}
+
+.bg {
+  scale-self: scale(2);
+  align-self: center;
+  background: #b2ffbd;
+  background: linear-gradient(#b2ffbd, #567a5b);
+}
+
+.center {
+  text-align: center;
+}
+
+input {
+	background-color: white;
+	border-radius: 12px;
+	width: 300px;
+	height: 30px;
+}
